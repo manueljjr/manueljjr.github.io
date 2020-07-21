@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Instalar Tema</title>
-      <link>https://manueljjr.github.io/docs/instalar-tema/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://manueljjr.github.io/docs/instalar-tema/</guid>
-      <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
-    </item>
-    
-    <item>
       <title>Configuración</title>
       <link>https://manueljjr.github.io/docs/configuracion/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
@@ -48,21 +39,30 @@
     </item>
     
     <item>
-      <title>Entrega 1 (Silla)</title>
+      <title>Silla Plywood Eames</title>
       <link>https://manueljjr.github.io/docs/entrega-1-silla/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://manueljjr.github.io/docs/entrega-1-silla/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
+      <description>Entrega 1</description>
     </item>
     
     <item>
-      <title>Objetivos del Curso</title>
-      <link>https://manueljjr.github.io/docs/objetivos/</link>
+      <title>Mecanizacion CNC</title>
+      <link>https://manueljjr.github.io/docs/mecanizacion/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://manueljjr.github.io/docs/objetivos/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
+      <guid>https://manueljjr.github.io/docs/mecanizacion/</guid>
+      <description>Entrega 2</description>
+    </item>
+    
+    <item>
+      <title>Mecanizacion CNC</title>
+      <link>https://manueljjr.github.io/docs/mecanizaci%C3%B3n/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://manueljjr.github.io/docs/mecanizaci%C3%B3n/</guid>
+      <description>Entrega 2</description>
     </item>
     
   </channel>
