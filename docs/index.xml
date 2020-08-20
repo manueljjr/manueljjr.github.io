@@ -83,5 +83,14 @@
       <description>Entrega 5</description>
     </item>
     
+    <item>
+      <title>Bonus Grasshopper</title>
+      <link>https://manueljjr.github.io/docs/bonus-grasshopper/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://manueljjr.github.io/docs/bonus-grasshopper/</guid>
+      <description>Bonus 1</description>
+    </item>
+    
   </channel>
 </rss>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Mecanización CNC - Nombre Alumno</title>
+  <title>Bonus Grasshopper - Nombre Alumno</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://manueljjr.github.io/favicon.png">
@@ -106,7 +106,7 @@
       <a href="https://manueljjr.github.io/docs/entrega-1-silla/">Silla Plywood Eames</a>
     </li>
     
-    <li class="active ">
+    <li class="">
       <a href="https://manueljjr.github.io/docs/mecanizacion/">Mecanización CNC</a>
     </li>
     
@@ -122,7 +122,7 @@
       <a href="https://manueljjr.github.io/docs/macetero-encargo-4/">Eco-Macetero</a>
     </li>
     
-    <li class="">
+    <li class="active ">
       <a href="https://manueljjr.github.io/docs/bonus-grasshopper/">Bonus Grasshopper</a>
     </li>
     
@@ -133,126 +133,77 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Mecanización CNC</h1>
+<h1 class="title">Bonus Grasshopper</h1>
 <div class="content ">
-  <h1 id="mecanizado-cnc">Mecanizado CNC</h1>
-<p>El centro de mecanizado o CNC, son entonces máquinas-herramientas automatizadas que se controlan por ordenador. Mediante herramientas rotativas de múltiples filos de corte y con poquísima intervención del operador, estas máquinas son capaces de llevar a cabo diferentes operaciones sobre una pieza. La precisión y la producción se ven aumentadas, a la par que disminuye el tiempo de operación y los costes.</p>
-<p><img src="/img/mecanizacion/cnc.png" alt="CNC"></p>
-<p>En el encargo de hoy se trabajará sobre madera para poder crear una silla fresia. Es importante saber con que material se está trabajando y en que condiciones se encuentrar ya que cada madera tiene sus propiedades especificas a la hora de trabajar en la maquina, en la siguiente imagen aparece información respecto a esto:</p>
-<p><img src="/img/mecanizacion/info.jpg" alt="Info"></p>
-<h2 id="encargo">Encargo</h2>
-<p>En el encargo de hoy construiremos una sila fresia como se muestra a continuación, a partir de de la maquina cnc a través del programa
-Fusion 360, el cual nos permite modelar y simular dicho proceso.
+  <p>Este es un Iframe del modelo a trabajar, parecido al de la silla mecanizada en CNC. A continuación entraré a detallar como se hizo la modelación.
 <div>
-    <iframe 
-    src="https://alumnos2134.autodesk360.com/shares/public/SH56a43QTfd62c1cd9689fd3a5f7b562c375?mode=embed" 
-    width="100%" 
-    height="450" 
-    allowfullscreen="true" 
-    webkitallowfullscreen="true" 
-    mozallowfullscreen="true"  
-    frameborder="0">
-    </iframe>    
+    <iframe src="https://alumnos2134.autodesk360.com/shares/public/SH56a43QTfd62c1cd968c9410ec4924eb598?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 </div>
-
 </p>
-<h2 id="proceso-de-partes-planas-de-la-silla">Proceso de partes planas de la silla</h2>
-<p>Imágenes:
-<br>
-<br>
-Aquí se ve el desarmado de la silla en la plancha
+<h1 id="proceso">Proceso</h1>
+<p>El proceso como se dijo antes fue muy parecido al de la silla pero con un agregado que seria el contour en 2D con TABS para que no se mueva la figura en el proceso de corte.</p>
+<h3 id="1-área-de-trabajo">1. Área de trabajo</h3>
+<p>Crear un sketch y darle una extrusión que contenga a la pieza que se quizo moldear.
+<img src="/img/bonus.jpg" alt="Bonus"></p>
+<h3 id="2-configurar-opciones-de-mecanizado">2. Configurar opciones de mecanizado</h3>
+<p>Crear mi Setup y personalizarlo. La máquina a utilizar es la misma que hemos visto en los ejecicios anteriores. Generic 3-Axis. Estos pasos son exactamente igual a lo que hemos hecho en ejercicios anteriores.</p>
+<h3 id="3-optimizar-el-mecanizado">3. Optimizar el mecanizado</h3>
+<p>Hacer un sketch de proyección en la cara superior de la plancha de madera para obtener como resultado el área en la cual se hará el mecanizado.</p>
+<h3 id="4-adaptative-clearing">4. Adaptative Clearing</h3>
+<p><img src="/img/paso1.jpg" alt="Bonus"></p>
+<p>Acá utilizamos la Fresa de punta plana que se muestra en la foto a continuación (flat end mill). Esta es la que ocupamos para las primeras piezas de la silla fresia, la que no tenía edición alguna. Por otra parte debemos configuar esta acción como siempre lo hacemos.</p>
+<p>/</p>
+<p>A continuación mostraré una imagen y video de este proceso:
+<img src="/img/paso2.jpg" alt="Bonus">
 <div>
     <video 
     width="100%" 
     height="450" 
     autoplay muted loop controls preload>
-    <source src="/img/mecanizacion/desarmado.mp4"  type="video/mp4">
-    </video>
-</div>
-<br>
-<br>
-<br>
-<br>
-En esta imagen se ven todas la partes de la silla, excluyendo el respaldo y el asiento.
-<img src="/img/mecanizacion/piezas_planas.jpg" alt="Mecanizacion_1">
-<br>
-<br>
-<br>
-<br>
-Aqui se ven como se hacen los contours
-<div>
-    <video 
-    width="100%" 
-    height="450" 
-    autoplay muted loop controls preload>
-    <source src="/img/mecanizacion/corte01.mp4"  type="video/mp4">
-    </video>
-</div>
-<br>
-<br>
-<br>
-<br>
-Luego vienen los sacados&hellip;
-<div>
-    <video 
-    width="100%" 
-    height="450" 
-    autoplay muted loop controls preload>
-    <source src="/img/mecanizacion/corte02.mp4"  type="video/mp4">
-    </video>
-</div>
-<br>
-<br>
-<br>
-<br>
-Luego se corta toda la pieza dejando pequeños conectores (tabs) de la pieza a la plancha para que con el movimiento de la maquina, no vibre y se dañe la madera y quede fije a la plancha hasta que termine el corte.
-<div>
-    <video 
-    width="100%" 
-    height="450" 
-    autoplay muted loop controls preload>
-    <source src="/img/mecanizacion/corte03.mp4"  type="video/mp4">
-    </video>
-</div>
-<br>
-<br>
-<br>
-<br>
-Aquí esta todo el proceso.
-<div>
-    <video 
-    width="100%" 
-    height="450" 
-    autoplay muted loop controls preload>
-    <source src="/img/mecanizacion/corte04.mp4"  type="video/mp4">
+    <source src="/img/paso2v.mp4"  type="video/mp4">
     </video>
 </div></p>
-<h2 id="proceso-de-partes-curvas-de-la-silla">Proceso de partes curvas de la silla</h2>
-<p>Videos:
-<br>
-<br>
+<p>Así se vería en la vida real este paso.
+<img src="/img/paso2r.jpg" alt="Bonus"></p>
+<h3 id="5-parallel">5. Parallel</h3>
+<p><img src="/img/paralel.jpg" alt="Bonus"></p>
+<p>Acá utilizamos la Fresa de punta redonda que se muestra en la foto a continuación (ball end mill). Por otra parte debemos configuar esta acción como siempre lo hacemos.</p>
+<p>/</p>
+<p>En esta etapa  hacemos el mismo proceso en dos sentidos distintos para darle un mejor acabado.
+<img src="/img/paso3.jpg" alt="Bonus">
+Aquí en un sentido&hellip;
 <div>
     <video 
     width="100%" 
     height="450" 
     autoplay muted loop controls preload>
-    <source src="/img/mecanizacion/asientocorte01.mp4"  type="video/mp4">
+    <source src="/img/paso3v.mp4"  type="video/mp4">
     </video>
-</div>
-Aquí vemos como corta la forma del asiento
-<br>
-<br>
-<br>
-<br>
+</div></p>
+<p>Aquí en el otro&hellip;
 <div>
     <video 
     width="100%" 
     height="450" 
     autoplay muted loop controls preload>
-    <source src="/img/mecanizacion/asientocorte02.mp4"  type="video/mp4">
+    <source src="/img/paso3vv.mp4"  type="video/mp4">
     </video>
-</div>
-Aquí le hace cortes no completos, para poder darle la curvatura a la madera</p>
+</div></p>
+<p>Así seria en la vida real sin esta triste cuarentena&hellip;
+<img src="/img/paso3r.jpg" alt="Bonus"></p>
+<h3 id="6-contour-2d">6. Contour 2D</h3>
+<p><img src="/img/contour2d.jpg" alt="Bonus"></p>
+<p>Acá utilizamos la Fresa de punta plana que se muestra en la foto a continuación (flat end mill). Esta es la que ocupamos para las primeras piezas de la silla fresia, la que no tenía edición alguna. Por otra parte debemos configuar esta acción como siempre lo hacemos.</p>
+<p>/</p>
+<p>Aca les dejo un video del contour dejando TABS, las cuales son importantes para que la pieza no se mueva y no se rompa durante el corte.
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/paso4v.mp4"  type="video/mp4">
+    </video>
+</div></p>
 
 </div>
 </div>
