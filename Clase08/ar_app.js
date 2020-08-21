@@ -175,12 +175,12 @@ function init() {
 
     //////OBJETO RHINO 1///////////////
     new THREE.MTLLoader()
-        .setPath('./data/Models/')
+        .setPath('./data/models/')
         .load('jinx1.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
-                .setPath('./data/Models/')
+                .setPath('./data/models/')
                 .load('jinx1.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
