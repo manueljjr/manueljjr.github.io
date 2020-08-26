@@ -180,7 +180,7 @@ function init() {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
-                .setPath('data/models/')
+                .setPath('./data/models/')
                 .load('jinx1.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
