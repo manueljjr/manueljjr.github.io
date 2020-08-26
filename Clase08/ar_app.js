@@ -154,7 +154,7 @@ function init() {
     // mesh2.receiveShadow = true;
 
 
-    markerRoot1.add(mesh1); //esta linea agrega el cubo a mi grupo y finalmente se puede ver en la escena 
+    //markerRoot1.add(mesh1); //esta linea agrega el cubo a mi grupo y finalmente se puede ver en la escena 
     //markerRoot1.add(mesh2); //agregando el mesh 2 a mi escena
 
     ////////////////////PISO////////////////
@@ -175,13 +175,13 @@ function init() {
 
     //////OBJETO RHINO 1///////////////
     new THREE.MTLLoader()
-        .setPath('./data/models/')
-        .load('jinx1.mtl', function (materials) {
+        .setPath('data/models/')
+        .load('jinx.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
-                .setPath('./data/models/')
-                .load('jinx1.obj', function (group) {
+                .setPath('data/models/')
+                .load('jinx.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
                     RhinoMesh.scale.set(0.03, 0.03, 0.03);
@@ -191,7 +191,7 @@ function init() {
 
                     markerRoot1.add(RhinoMesh);
                 }, onProgress, onError);
-        });3
+        });
     
     //  //////OBJETO RHINO 2///////////////
     //  new THREE.MTLLoader()
