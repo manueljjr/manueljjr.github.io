@@ -181,7 +181,7 @@ function init() {
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
                     RhinoMesh.position.set(0, 0, 0);
-                    RhinoMesh.name = "Te voy a comer, graur"
+                    RhinoMesh.name = "Confirmar ataque"
 
                     marker1.add(RhinoMesh);
 
